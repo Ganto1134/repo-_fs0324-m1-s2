@@ -76,4 +76,3 @@ var name1Minuscolo = name1.toLowerCase() ;
 var name2Minuscolo2 = name2.toLowerCase() ;
 var ugualianza2 = name1Minuscolo == name2Minuscolo2 ; 
 console.log('ugualianza tra nomi cambiati :', ugualianza2) ;
-xza
