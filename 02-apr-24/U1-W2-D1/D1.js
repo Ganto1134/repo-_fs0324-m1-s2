@@ -30,8 +30,8 @@ var myName  = 'Antonio' ;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var numero1 = 7;
-var numero2 = 8;
+var numero1 = 12;
+var numero2 = 20;
 var somma = numero1 + numero2 ;
 console.log('la somma è: ' + somma) ;
 
