@@ -47,7 +47,7 @@ let num = 8;
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-  if (numero1 === 8 | numero2 === 8 | numero1 + numero2 === 8 | numero1 - numero2 === 8) {
+  if (numero1 === 8 || numero2 === 8 || numero1 + numero2 === 8 || numero2 - numero1 === 8 || numero1 - numero2 === 8) {
       console.log("uno dei numeri o la loro sottrazione o addizione è uguale a 8");
   } else {
       console.log("nessuno dei numeri e nessuna loro sottrazione o addizione è uguale a 8");
@@ -64,7 +64,7 @@ let num = 8;
 let totalShoppingCart = 60 ;
 
   const costoSpedizione = totalShoppingCart > 50 ? 0 : 10;
-  console.log (totalShoppingCart + costoSpedizione);
+  console.log ("Totale da pagare: ",totalShoppingCart + costoSpedizione);
 
 
 /* ESERCIZIO 6
@@ -76,7 +76,7 @@ let totalShoppingCart = 60 ;
 
 const totaleScontato = totalShoppingCart * 0.8;
 
-console.log (totaleScontato);
+console.log ("Totale totaleScontato:",totaleScontato);
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -200,7 +200,7 @@ let numeriArray =  [];
 for (let n = 1; n <= 10; n++) {
   numeriArray.push(n);
 }
-console.log(numeriArray)
+console.log(numeriArray);
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
@@ -208,4 +208,4 @@ console.log(numeriArray)
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 numeriArray[9] = 100;
-console.log(numeriArray)
+console.log(numeriArray);
