@@ -85,20 +85,20 @@ console.log ("Totale totaleScontato:",totaleScontato);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let n1 = 54;
+let n1 = 24;
 let n2 = 87;
-let n3 = 24;
-if (n1 > n2 && n1 > n3) { 
+let n3 = 54;
+if (n1 > n2 && n2 > n3) { 
   console.log ("ordine decrescente: ", n1, ",", n2, "," , n3) ;
-} else if (n1 > n3 && n1 > n2) { 
+} else if (n1 > n3 && n3 > n2) { 
   console.log ("ordine decrescente: ", n1, ",", n3, "," , n2) ;
-} else if (n2 > n1 && n2 > n3) { 
+} else if (n2 > n1 && n1 > n3) { 
   console.log ("ordine decrescente: ", n2, ",", n1, "," , n3) ;
-} else if (n2 > n3 && n2 > n1) { 
+} else if (n2 > n3 && n3 > n1) { 
   console.log ("ordine decrescente: ", n2, ",", n3, "," , n1) ;
-} else if (n3 > n1 && n3> n2) { 
+} else if (n3 > n1 && n1 > n2) { 
   console.log ("ordine decrescente: ", n3, ",", n1, "," , n2) ;
-} else if (n3 > n2 && n3 > n1) { 
+} else if (n3 > n2 && n2 > n1) { 
   console.log ("ordine decrescente: ", n3, ",", n2, "," , n1) ;
 } else { console.log("non funge");
 }
