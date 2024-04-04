@@ -141,7 +141,7 @@ let eyeColor = {
   yellow : [],
   brown : [],
   red : [],
-  blueGray : []
+  "blue-gray" : []
 }
 
 /* ESERCIZIO 5
@@ -160,13 +160,14 @@ for(let e = 0; e < starWarsCharacters.length; e++){
     break;
     case "red": eyeColor.red.push(starWarsCharacters[e]);
     break;
-    case "blue-gray": eyeColor.blueGray.push(starWarsCharacters[e]) ;
+    case "blue-gray": eyeColor["blue-gray"].push(starWarsCharacters[e]) ;
     break;
     default : Messaggio = "non funge" ;
     break ;
   }
 }
 console.log(eyeColor);
+
 
 /* ESERCIZIO 6
   Usa un while loop per calcolare la massa totale dell'equipaggio. Salvala in una variabile chiamata "crewMass".
@@ -178,7 +179,7 @@ while (m < starWarsCharacters.length) {
   crewMass += parseInt(starWarsCharacters[m].mass);
   m++;
 }
-console.log(crewMass);
+console.log("la massa è " + crewMass);
 
 /* ESERCIZIO 7
   Crea uno if/else statement per rivelare la tipologia di carico, utilizzando la massa totale, di un'ipotetica astronave contenente i personaggi dell'array "starWarsCharacters".
@@ -233,7 +234,7 @@ for (var i = 0; i < femaleCharacters.length; i++) {
 
 console.log("Lunghezza di charactersNames prima dell'operazione:", charactersNames.length);
 
-console.log("charactersNames dopo la rimozione:", charactersNames);
+console.log("charactersNames dopo la rimozione:", charactersNames[i].length);
 
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
